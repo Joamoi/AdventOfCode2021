@@ -73,6 +73,7 @@ namespace Day6
             }
 
             // fish0 is amount of fish with value 0, fish1 is amount of fish with value 1, etc.
+            // numbers get too big for int so we use ulong
             ulong fish0 = (ulong)fish.Count(x => x == 0);
             ulong fish1 = (ulong)fish.Count(x => x == 1);
             ulong fish2 = (ulong)fish.Count(x => x == 2);
